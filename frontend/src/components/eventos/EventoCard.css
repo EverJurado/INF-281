@@ -1,0 +1,29 @@
+/* .evento-card {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .evento-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .evento-info {
+    padding: 1rem;
+    flex: 1;
+  }
+  
+  .like-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .like-button.liked {
+    color: red;
+  }
+   */

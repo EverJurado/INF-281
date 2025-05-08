@@ -1,0 +1,98 @@
+/* src/styles/eventos.css */
+.eventos-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1.5fr;
+  gap: 1.5rem;
+  padding: 24px;
+  height: calc(100vh - 80px);
+  background-color: #fefefe;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.filtros {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-left: 5px solid #c8102e; /* rojo bandera */
+  overflow-y: auto;
+}
+
+.lista-eventos {
+  overflow-y: auto;
+}
+
+.mapa {
+  height: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 2px solid #ffd700; /* amarillo bandera */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.lista-eventos-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-right: 1rem;
+}
+
+.evento-card {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.evento-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.evento-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.evento-info {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 4px solid #007a33; /* verde bandera */
+}
+
+.like-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: color 0.3s;
+}
+
+.like-button.liked {
+  color: #c8102e; /* rojo */
+}
+
+.filtros-eventos label,
+.filtros-eventos select {
+  display: block;
+  margin-bottom: 0.75rem;
+  width: 100%;
+  font-weight: 500;
+}
+
+.filtros-eventos select {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+  
