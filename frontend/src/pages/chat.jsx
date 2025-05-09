@@ -35,7 +35,7 @@ function Chat() {
     <div className="flex flex-col h-screen bg-[#e5ddd5]">
       {/* Header tipo WhatsApp */}
       <div className="bg-green-500 text-white p-4 text-center font-bold shadow">
-        Chat Bicentenario 🇧🇴
+        Chat Bicentenario 🇧🇴livia xdddd
       </div>
 
       {/* Mensajes */}
